@@ -1,0 +1,10 @@
+# 统一用 LF 检出：本仓库的 reference/*.patch 要被 git apply 直接消费，
+# CRLF 会让它打不上；JS/JSON/YAML 也不该因为平台不同产生整文件差异。
+* text=auto eol=lf
+
+# 补丁文件按二进制原样保存，不做行尾归一化。
+*.patch -text
+
+*.png binary
+*.jpg binary
+*.ico binary
