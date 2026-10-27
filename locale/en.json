@@ -1,0 +1,5 @@
+{
+  "meta": {
+    "description": "Enable/disable individual models in DSH Settings without deleting them: a switch on each pi-ai model row, hidden from model pickers when off."
+  }
+}

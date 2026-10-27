@@ -16,13 +16,15 @@
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*": "./locale/*"
   },
   "files": [
     "lib",
     "scripts",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "locale"
   ],
   "dsh": {
     "bundle": {
